@@ -1,0 +1,18 @@
+# robots.txt для https://jokervigre.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jokervigre.github.io/sitemap.xml
+
+# Яндекс
+User-agent: Yandex
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Запретить сканирование assets (опционально)
+Disallow: /assets/
